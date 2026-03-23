@@ -17,7 +17,7 @@ struct StartScreenView: View {
                     .fill(.white.opacity(0.08))
                     .frame(width: 180, height: 180)
 
-                Image(systemName: "moon.stars.fill")
+                Image(systemName: "moon.fill")
                     .font(.system(size: 72, weight: .light))
                     .foregroundStyle(
                         LinearGradient(
@@ -32,7 +32,7 @@ struct StartScreenView: View {
             }
 
             VStack(spacing: 16) {
-                Text("Dream")
+                Text("Dreamna")
                     .font(
                         .system(size: 42, weight: .semibold, design: .rounded)
                     )
