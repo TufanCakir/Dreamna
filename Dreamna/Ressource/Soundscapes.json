@@ -1,0 +1,362 @@
+[
+    {
+        "id": "rain",
+        "title": "Regen",
+        "subtitle": "Sanftes Tropfen mit ruhigem Hintergrundrauschen",
+        "tagline": "Soft Rain",
+        "generator": {
+            "kind": "rain",
+            "baseAmplitude": 0.06,
+            "modulationAmplitude": 0.015,
+            "secondaryAmplitude": 0.0,
+            "phaseStep": 0.01,
+            "secondaryPhaseStep": 0.0,
+            "smoothing": 0.995,
+            "accentThreshold": 0.998,
+            "accentRange": [
+                0.02,
+                0.05
+            ]
+        }
+    },
+    {
+        "id": "waves",
+        "title": "Wellen",
+        "subtitle": "Langsame Brandung mit tiefen, ruhigen Bewegungen",
+        "tagline": "Ocean Drift",
+        "generator": {
+            "kind": "waves",
+            "baseAmplitude": 0.04,
+            "modulationAmplitude": 0.08,
+            "secondaryAmplitude": 0.0,
+            "phaseStep": 0.004,
+            "secondaryPhaseStep": 0.0,
+            "smoothing": 0.997,
+            "accentThreshold": 1.0,
+            "accentRange": [
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "id": "white-noise",
+        "title": "White Noise",
+        "subtitle": "Sanftes, gefiltertes Rauschen zum Abschirmen",
+        "tagline": "Focus Veil",
+        "generator": {
+            "kind": "whiteNoise",
+            "baseAmplitude": 0.10,
+            "modulationAmplitude": 0.0,
+            "secondaryAmplitude": 0.0,
+            "phaseStep": 0.0,
+            "secondaryPhaseStep": 0.0,
+            "smoothing": 0.995,
+            "accentThreshold": 1.0,
+            "accentRange": [
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "id": "forest",
+        "title": "Wald",
+        "subtitle": "Leises Blätterrauschen mit natürlichem Flow",
+        "tagline": "Forest Air",
+        "generator": {
+            "kind": "forest",
+            "baseAmplitude": 0.05,
+            "modulationAmplitude": 0.015,
+            "secondaryAmplitude": 0.01,
+            "phaseStep": 0.008,
+            "secondaryPhaseStep": 0.003,
+            "smoothing": 0.995,
+            "accentThreshold": 0.999,
+            "accentRange": [
+                0.01,
+                0.03
+            ]
+        }
+    },
+    {
+        "id": "fireplace",
+        "title": "Kamin",
+        "subtitle": "Warmes, ruhiges Knistern für entspannte Abende",
+        "tagline": "Warm Ember",
+        "generator": {
+            "kind": "fireplace",
+            "baseAmplitude": 0.04,
+            "modulationAmplitude": 0.01,
+            "secondaryAmplitude": 0.015,
+            "phaseStep": 0.015,
+            "secondaryPhaseStep": 0.04,
+            "smoothing": 0.992,
+            "accentThreshold": 0.997,
+            "accentRange": [
+                0.02,
+                0.05
+            ]
+        }
+    },
+    {
+        "id": "wind",
+        "title": "Wind",
+        "subtitle": "Sanfter, kontinuierlicher Luftstrom",
+        "tagline": "Night Breeze",
+        "generator": {
+            "kind": "forest",
+            "baseAmplitude": 0.04,
+            "modulationAmplitude": 0.02,
+            "secondaryAmplitude": 0.005,
+            "phaseStep": 0.006,
+            "secondaryPhaseStep": 0.002,
+            "smoothing": 0.997,
+            "accentThreshold": 0.999,
+            "accentRange": [
+                0.005,
+                0.02
+            ]
+        }
+    },
+    {
+        "id": "heavy-rain",
+        "title": "Starker Regen",
+        "subtitle": "Dichter, gleichmäßiger Regen mit Tiefe",
+        "tagline": "Rain Storm",
+        "generator": {
+            "kind": "rain",
+            "baseAmplitude": 0.09,
+            "modulationAmplitude": 0.02,
+            "secondaryAmplitude": 0.0,
+            "phaseStep": 0.015,
+            "secondaryPhaseStep": 0.0,
+            "smoothing": 0.992,
+            "accentThreshold": 0.995,
+            "accentRange": [
+                0.03,
+                0.07
+            ]
+        }
+    },
+    {
+        "id": "shower",
+        "title": "Dusche",
+        "subtitle": "Konstantes Wasserrauschen wie unter der Dusche",
+        "tagline": "Shower Calm",
+        "generator": {
+            "kind": "whiteNoise",
+            "baseAmplitude": 0.12,
+            "modulationAmplitude": 0.01,
+            "secondaryAmplitude": 0.0,
+            "phaseStep": 0.002,
+            "secondaryPhaseStep": 0.0,
+            "smoothing": 0.998,
+            "accentThreshold": 1.0,
+            "accentRange": [
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "id": "space",
+        "title": "Weltraum",
+        "subtitle": "Tiefer, schwebender Ambient-Sound",
+        "tagline": "Deep Space",
+        "generator": {
+            "kind": "waves",
+            "baseAmplitude": 0.03,
+            "modulationAmplitude": 0.04,
+            "secondaryAmplitude": 0.0,
+            "phaseStep": 0.002,
+            "secondaryPhaseStep": 0.0,
+            "smoothing": 0.999,
+            "accentThreshold": 1.0,
+            "accentRange": [
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "id": "heartbeat",
+        "title": "Herzschlag",
+        "subtitle": "Langsamer, beruhigender Rhythmus",
+        "tagline": "Calm Pulse",
+        "generator": {
+            "kind": "fireplace",
+            "baseAmplitude": 0.03,
+            "modulationAmplitude": 0.02,
+            "secondaryAmplitude": 0.02,
+            "phaseStep": 0.02,
+            "secondaryPhaseStep": 0.05,
+            "smoothing": 0.995,
+            "accentThreshold": 0.995,
+            "accentRange": [
+                0.02,
+                0.04
+            ]
+        }
+    },
+    {
+        "id": "deep-ocean",
+        "title": "Tiefer Ozean",
+        "subtitle": "Langsame, schwere Wasserbewegung",
+        "tagline": "Ocean Depth",
+        "generator": {
+            "kind": "waves",
+            "baseAmplitude": 0.03,
+            "modulationAmplitude": 0.06,
+            "secondaryAmplitude": 0.0,
+            "phaseStep": 0.002,
+            "secondaryPhaseStep": 0.0,
+            "smoothing": 0.998,
+            "accentThreshold": 1.0,
+            "accentRange": [
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "id": "cold-breeze",
+        "title": "Kalte Brise",
+        "subtitle": "Frische, leichte Luft mit kühlem Charakter",
+        "tagline": "Cold Air",
+        "generator": {
+            "kind": "forest",
+            "baseAmplitude": 0.035,
+            "modulationAmplitude": 0.018,
+            "secondaryAmplitude": 0.004,
+            "phaseStep": 0.007,
+            "secondaryPhaseStep": 0.002,
+            "smoothing": 0.998,
+            "accentThreshold": 0.9995,
+            "accentRange": [
+                0.003,
+                0.012
+            ]
+        }
+    },
+    {
+        "id": "warm-breeze",
+        "title": "Warme Brise",
+        "subtitle": "Sanfter, weicher Wind wie an einem Sommerabend",
+        "tagline": "Warm Wind",
+        "generator": {
+            "kind": "forest",
+            "baseAmplitude": 0.045,
+            "modulationAmplitude": 0.012,
+            "secondaryAmplitude": 0.008,
+            "phaseStep": 0.006,
+            "secondaryPhaseStep": 0.003,
+            "smoothing": 0.996,
+            "accentThreshold": 0.999,
+            "accentRange": [
+                0.005,
+                0.02
+            ]
+        }
+    },
+    {
+        "id": "night-wind",
+        "title": "Nachtwind",
+        "subtitle": "Tiefe, ruhige Luftbewegung in der Nacht",
+        "tagline": "Night Flow",
+        "generator": {
+            "kind": "waves",
+            "baseAmplitude": 0.025,
+            "modulationAmplitude": 0.035,
+            "secondaryAmplitude": 0.0,
+            "phaseStep": 0.003,
+            "secondaryPhaseStep": 0.0,
+            "smoothing": 0.999,
+            "accentThreshold": 1.0,
+            "accentRange": [
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "id": "soft-stream",
+        "title": "Bach",
+        "subtitle": "Leises Plätschern eines kleinen Flusses",
+        "tagline": "Soft Stream",
+        "generator": {
+            "kind": "waves",
+            "baseAmplitude": 0.035,
+            "modulationAmplitude": 0.05,
+            "secondaryAmplitude": 0.0,
+            "phaseStep": 0.006,
+            "secondaryPhaseStep": 0.0,
+            "smoothing": 0.996,
+            "accentThreshold": 0.998,
+            "accentRange": [
+                0.01,
+                0.03
+            ]
+        }
+    },
+    {
+        "id": "deep-night",
+        "title": "Tiefe Nacht",
+        "subtitle": "Sehr ruhiger, dunkler Ambient-Sound",
+        "tagline": "Dark Calm",
+        "generator": {
+            "kind": "whiteNoise",
+            "baseAmplitude": 0.025,
+            "modulationAmplitude": 0.0,
+            "secondaryAmplitude": 0.0,
+            "phaseStep": 0.0,
+            "secondaryPhaseStep": 0.0,
+            "smoothing": 0.999,
+            "accentThreshold": 1.0,
+            "accentRange": [
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "id": "storm-wind",
+        "title": "Sturmwind",
+        "subtitle": "Stärkerer Wind mit unruhiger Bewegung",
+        "tagline": "Storm Flow",
+        "generator": {
+            "kind": "forest",
+            "baseAmplitude": 0.06,
+            "modulationAmplitude": 0.03,
+            "secondaryAmplitude": 0.01,
+            "phaseStep": 0.012,
+            "secondaryPhaseStep": 0.005,
+            "smoothing": 0.993,
+            "accentThreshold": 0.998,
+            "accentRange": [
+                0.01,
+                0.04
+            ]
+        }
+    },
+    {
+        "id": "underwater",
+        "title": "Unterwasser",
+        "subtitle": "Gedämpfte, schwebende Tiefe",
+        "tagline": "Underwater Drift",
+        "generator": {
+            "kind": "waves",
+            "baseAmplitude": 0.02,
+            "modulationAmplitude": 0.025,
+            "secondaryAmplitude": 0.0,
+            "phaseStep": 0.0015,
+            "secondaryPhaseStep": 0.0,
+            "smoothing": 0.999,
+            "accentThreshold": 1.0,
+            "accentRange": [
+                0.0,
+                0.0
+            ]
+        }
+    }
+]
